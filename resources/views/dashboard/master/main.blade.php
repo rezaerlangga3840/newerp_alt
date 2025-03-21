@@ -54,7 +54,7 @@
 
       <!-- Left side column. contains the sidebar -->
       
-      @include('dashboard.master.sidebar.main')
+      @include('dashboard.master.sidebar.sidebarmain')
       
       
 
