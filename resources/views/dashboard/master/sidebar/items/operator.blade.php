@@ -23,3 +23,4 @@
   </a>
 </li>
 <li><a href="#"><i class="fa fa-fw fa-file"></i><span>Daftar Laporan</span></a></li><!--route('user.daftarlaporan')-->
+@endif

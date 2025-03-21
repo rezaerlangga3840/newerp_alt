@@ -18,10 +18,10 @@
       
       <ul class="sidebar-menu" data-widget="tree">
         @if(Auth::user()->privilege=='operator')<!--cek login privilege operator atau admin-->
-        @include(dashboard.master.sidebar.main.items.operator)
-        @endif<!--verifikasi-->
+        @include('dashboard.master.sidebar.items.operator')
+        <!--verifikasi-->
         @else
-        @include(dashboard.master.sidebar.main.items.admin)
+        @include('dashboard.master.sidebar.items.admin')
         @endif
       </ul>
     </section>
