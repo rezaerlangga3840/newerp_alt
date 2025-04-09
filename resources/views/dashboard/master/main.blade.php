@@ -49,7 +49,7 @@
     <div class="wrapper">
       
       <!--navbar-->
-      @include('dashboard.master.header')
+      @include('dashboard.master.header.headermain')
       <!-- =============================================== -->
 
       <!-- Left side column. contains the sidebar -->
